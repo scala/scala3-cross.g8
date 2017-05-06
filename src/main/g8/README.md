@@ -1,4 +1,4 @@
-## Hello World example sbt project that is cross compiled using Dotty and Scala 2
+## Template sbt project that is cross compiled using Dotty and Scala 2
 
 ### Usage
 
