@@ -1,3 +1,7 @@
+Dotty.g8 Cross Compiled Template
+=================
+[![Build Status](https://travis-ci.org/lampepfl/dotty-cross.g8.svg?branch=master)](https://travis-ci.org/lampepfl/dotty-cross.g8/)
+
 A [Giter8][g8] template for a [Dotty]/[Scala 2.x] cross compiling application
 
 Template usage
