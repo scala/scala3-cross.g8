@@ -13,6 +13,8 @@ lazy val root = (project in file(".")).
     description := "Template sbt project that is cross compiled using Dotty and Scala 2",
     version := "0.1",
 
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
+
     useLatestDottyNightly := false,
 
     dottyVersion := {

@@ -3,7 +3,9 @@ object Main {
 
   def main(args: Array[String]): Unit = {
     println("Hello world!")
-    println("I was compiled by Dotty and Scala 2 :)")
+    println(msg)
   }
+
+  def msg = "I was compiled by dotty :)"
 
 }
