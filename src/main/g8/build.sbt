@@ -1,5 +1,5 @@
 
-val defaultDottyVersion = "0.1.1-bin-20170502-df22149-NIGHTLY" // TODO: put technical release version
+val defaultDottyVersion = "0.1.2-RC1"
 val defaultScala2Version = "2.12.2"
 
 val useLatestDottyNightly = settingKey[Boolean]("Use the latest Dotty nightly build.")
