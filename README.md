@@ -1,12 +1,16 @@
-Dotty.g8 Cross Compiled Template
+dotty-cross.g8: Dotty and Scala 2 cross-compiled sbt template
 =================
 [![Build Status](https://travis-ci.org/lampepfl/dotty-cross.g8.svg?branch=master)](https://travis-ci.org/lampepfl/dotty-cross.g8/)
 
-A [Giter8][g8] template for a [Dotty]/[Scala 2.x] cross compiling application
+A [Giter8][g8] template for a [Dotty]/[Scala 2.x] cross-compiled project.
 
 Template usage
 --------------
-Using `sbt` version `0.13.13+`, do `sbt new lampepfl/dotty-cross.g8` in the folder where you which clone the template.
+Using `sbt` version `0.13.13+`, do:
+```
+sbt new lampepfl/dotty-cross.g8
+```
+in the folder where you want to clone the template.
 
 Template license
 ----------------
