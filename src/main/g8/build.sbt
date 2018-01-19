@@ -1,4 +1,4 @@
-val dottyVersion = "0.5.0-RC1"
+val dottyVersion = "0.6.0-RC1"
 val scala212Version = "2.12.4"
 
 lazy val root = (project in file(".")).
