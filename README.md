@@ -6,7 +6,7 @@ A [Giter8][g8] template for a [Dotty]/[Scala 2.x] cross-compiled project.
 
 Template usage
 --------------
-Using `sbt` version `0.13.13+`, do:
+Using `sbt` version `1.1.4+`, do:
 ```
 sbt new lampepfl/dotty-cross.g8
 ```

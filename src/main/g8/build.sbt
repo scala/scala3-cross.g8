@@ -1,8 +1,9 @@
-val dottyVersion = "0.7.0-RC1"
+val dottyVersion = "0.8.0-RC1"
 val scala212Version = "2.12.4"
 
-lazy val root = (project in file(".")).
-  settings(
+lazy val root = project
+  .in(file("."))
+  .settings(
     name := "dotty-cross",
     version := "0.1.0",
 
