@@ -1,4 +1,4 @@
-val dottyVersion = "0.16.0-RC2"
+val dottyVersion = "0.16.0-RC3"
 val scala212Version = "2.12.7"
 
 lazy val root = project
