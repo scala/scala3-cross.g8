@@ -1,5 +1,5 @@
 val dottyVersion = "0.21.0-RC1"
-val scala212Version = "2.12.7"
+val scala213Version = "2.13.1"
 
 lazy val root = project
   .in(file("."))
@@ -13,5 +13,5 @@ lazy val root = project
     scalaVersion := dottyVersion,
 
     // To cross compile with Dotty and Scala 2
-    crossScalaVersions := Seq(dottyVersion, scala212Version)
+    crossScalaVersions := Seq(dottyVersion, scala213Version)
   )
