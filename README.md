@@ -1,6 +1,6 @@
 scala3-cross.g8: Scala 3 and Scala 2 cross-compiled sbt template
 =================
-[![Build Status](https://travis-ci.org/lampepfl/dotty-cross.g8.svg?branch=master)](https://travis-ci.org/lampepfl/dotty-cross.g8/)
+[![Build Status](https://travis-ci.org/scala/scala3-cross.g8.svg?branch=main)](https://travis-ci.org/scala/scala3-cross.g8/)
 
 A [Giter8][g8] template for a [Scala 3.x]/[Scala 2.x] cross-compiled project.
 
