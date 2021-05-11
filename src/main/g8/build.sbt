@@ -12,6 +12,6 @@ lazy val root = project
     // To make the default compiler and REPL use Dotty
     scalaVersion := scala3Version,
 
-    // To cross compile with Dotty and Scala 2
+    // To cross compile with Scala 3 and Scala 2
     crossScalaVersions := Seq(scala3Version, scala2Version)
   )
