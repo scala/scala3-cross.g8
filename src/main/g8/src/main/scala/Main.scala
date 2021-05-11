@@ -1,4 +1,3 @@
-
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -6,6 +5,6 @@ object Main {
     println(msg)
   }
 
-  def msg = "I was compiled by dotty :)"
+  def msg = "I was compiled by Scala 3. :)"
 
 }
