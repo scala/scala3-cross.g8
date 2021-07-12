@@ -1,4 +1,4 @@
-val scala2Version = "2.13.5"
+val scala2Version = "2.13.6"
 val scala3Version = "3.0.1"
 
 lazy val root = project
@@ -7,7 +7,7 @@ lazy val root = project
     name := "scala3-cross",
     version := "0.1.0",
 
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test,
 
     // To make the default compiler and REPL use Dotty
     scalaVersion := scala3Version,
