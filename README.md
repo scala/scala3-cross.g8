@@ -1,6 +1,6 @@
 scala3-cross.g8: Scala 3 and Scala 2 cross-compiled sbt template
 =================
-[![Build Status](https://travis-ci.com/scala/scala3-cross.g8.svg?branch=main)](https://travis-ci.com/scala/scala3-cross.g8/)
+[![CI](https://github.com/scala/scala3-cross.g8/actions/workflows/ci.yml/badge.svg)](https://github.com/scala/scala3-cross.g8/actions/workflows/ci.yml)
 
 A [Giter8][g8] template for a [Scala 3] / [Scala 2] cross-compiled project.
 
