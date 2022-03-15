@@ -7,7 +7,7 @@ lazy val root = project
     name := "scala3-cross",
     version := "0.1.0",
 
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test,
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
 
     // To make the default compiler and REPL use Dotty
     scalaVersion := scala3Version,
