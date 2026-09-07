@@ -1,1 +1,1 @@
-addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.0")
+addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.1")
